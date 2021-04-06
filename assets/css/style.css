@@ -1,5 +1,10 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background-color:#f2f2f2;
+    background-color:#dfd9d9;
 }
 
 .content-center{
@@ -7,6 +12,8 @@ body {
     max-width: 300px;
     margin: auto;
     padding: 20px;
+    background-color: #FFF;
+    border-radius: 15px;
 }
 
 .content-center .text-center {
@@ -16,4 +23,77 @@ body {
 
 .content-center img {
     width: 70%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input{
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+}
+
+.content-center input:focus{
+    border-bottom-color: #e67930;
+}
+
+.content-center button {
+    background-color: #e67930;
+    color: #FFF;
+}
+
+.content-center button:hover{
+    background-color: #b55b28;
+    cursor: pointer;
+
+}
+
+.content-center button:active{
+    background-color: #c14e0e;
+    cursor: pointer;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 2px 2px 5px orangered;   
+}
+
+header a:visited {
+    color: rgb(0, 0, 0) ;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a:focus {
+    color: rgb(149, 4, 4);
+}
+
+header a:active {
+    color: rgb(200, 57, 5);
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+
 }
