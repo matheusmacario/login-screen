@@ -3,6 +3,16 @@
  
  
  
- ![preview](https://github.com/matheusmacario/login-screen/blob/main/login-screenshot-2.JPG)
+### How it is :
+<br>
+
+![gif](https://github.com/matheusmacario/login-screen/blob/main/login-screen.gif)
+
+
+### Screenshot :
+<br>
+
+![screenshot1](https://github.com/matheusmacario/login-screen/blob/main/screenshot1.JPG)
+
 
 
