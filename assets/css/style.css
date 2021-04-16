@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color:#9e9b9b;
+    background: url('https://images.unsplash.com/photo-1493129922668-fcb1a8514643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .content-center{
@@ -45,45 +49,37 @@ body {
 }
 
 .content-center input:focus{
-    border-bottom-color: #e67930;
+    border-bottom-color: #ffcd2e;
 }
 
 .content-center button {
-    background-color: #e67930;
+    background-color: #ffaa04;
     color: #FFF;
 }
 
 .content-center button:hover{
-    background-color: #b55b28;
+    background-color: #c78604;
     cursor: pointer;
 
 }
 
 .content-center button:active{
-    background-color: #c14e0e;
+    background-color: #906204;
     cursor: pointer;
 }
 
 header a {
-    color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
     text-decoration: none;
-    text-shadow: 2px 2px 5px orangered;   
+    text-shadow: 2px 2px 5px #111111;   
 }
 
 header a:visited {
-    color: rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255) ;
 }
 
 header a:hover {
     text-decoration: underline;
-}
-
-header a:focus {
-    color: rgb(149, 4, 4);
-}
-
-header a:active {
-    color: rgb(200, 57, 5);
 }
 
 header h1 {
@@ -92,8 +88,3 @@ header h1 {
     margin: 50px auto;
 }
 
-footer {
-    font-size: .8em;
-    text-align: center;
-
-}
